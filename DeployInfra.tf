@@ -100,7 +100,7 @@ resource "aws_subnet" "subnet-private-3" {
 
 # Nat Instance
 resource "aws_instance" "nat" {
-  ami                    = "ami-0bdfc0d3e73e217be"
+  ami                    = "ami-0f630a3f40b1eb0b8"
   instance_type          = "t2.micro"
   subnet_id              = aws_subnet.subnet-public-1.id
   vpc_security_group_ids = [aws_security_group.allow_nat.id]
