@@ -2,6 +2,11 @@ provider "aws" {
   region = "eu-west-1"
 }
 
+terraform {
+  backend "local" {
+  }
+}
+
 variable "env" {
   type    = string
   default = "dev"
