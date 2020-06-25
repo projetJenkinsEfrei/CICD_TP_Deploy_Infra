@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "local" {
-    path = "/home/ubuntu/terraformState/infra/terraform.tfstate"
+    path = "/home/ubuntu/terraformState/birintha/infra/terraform.tfstate"
   }
 }
 
