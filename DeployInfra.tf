@@ -2,12 +2,6 @@ provider "aws" {
   region = "eu-west-1"
 }
 
-terraform {
-  backend "local" {
-    path = "/home/ubuntu/terraformState/infra/terraform.tfstate"
-  }
-}
-
 variable "env" {
   type    = string
   default = "dev"
