@@ -4,13 +4,11 @@ provider "aws" {
 
 terraform {
   backend "local" {
-    path = "/home/ubuntu/terraformState/pauline/infra/terraform.tfstate"
   }
 }
 
 variable "env" {
   type    = string
-  default = "dev"
 }
 
 # VPC
