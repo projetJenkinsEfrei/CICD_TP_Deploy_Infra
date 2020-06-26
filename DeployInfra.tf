@@ -9,7 +9,6 @@ terraform {
 
 variable "env" {
   type    = string
-  default = "dev"
 }
 
 # VPC
