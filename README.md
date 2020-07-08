@@ -1,5 +1,14 @@
 # CICD_TP_Deploy_Infra
 
+
+<div align="center">
+  <img src="https://blog.sitm.ac.in/wp-content/uploads/2019/09/devops-660x330.png" width="210" height="110"/>
+  <br>
+  <br>
+</div>
+
+
+
 [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
 
 <table>
@@ -19,11 +28,11 @@ Ici ce dépot contient le fichier DeployInfra.tf.
 - [Prérequis](#prérequis)
 - [Terraform](#Terraform)
 - Le fichier
+- Lien
 
 
 ## Prérequis
 
-[(Back to top)](#sommaire)
 - Jenkins
 
 On utilise Jenkins dans la version 1.5.1
@@ -44,12 +53,20 @@ On utilise le fournisseur de Cloud AWS. On créer un rôle pour que le fichier P
 
 ## Terraform
 
-[(Back to top)](#sommaire)
-
 On utilise Terraform (dans la version 12.20) pour déployer de manière automatisé. Terraform à l’avantage d’être Cloud agnostique c’est-à-dire indépendant du Cloud Provider.
 
 ## Le fichier 
 
+Le fichier DeployInfra.tf sera utilisé pour créer notre infrastructure (VPC, subnet ...).
+
+## Lien 
+
 [(Back to top)](#sommaire)
 
-Le fichier DeployInfra.tf sera utilisé pour créer notre infrastructure (VPC, subnet ...).
+Voici ci-dessous quelques liens de dépot à consulter pour avoir plus d'information sur le déploiement.
+
+- Liens :
+  - https://github.com/birintha/CICD_TP_Build_AMI 
+  - https://github.com/birintha/CICD_TP_Deploy_WebApp
+
+
